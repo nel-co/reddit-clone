@@ -1,0 +1,32 @@
+.Header-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.Header-logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Header-links a{
+  color: #313131;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.Header-links .orange-link {
+  color: #FF4601;
+  font-weight: 700;
+  padding-left: 30px;  
+}
+
+@media screen and (max-width: 730px) {
+  .Header-section {
+    justify-content: center;
+  }
+  .Header-links {
+    display: none;
+  }
+}

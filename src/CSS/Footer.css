@@ -1,0 +1,39 @@
+.Footer-section {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.Footer-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Footer-head {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.Footer-links {
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer-links a {
+  padding-top: 5px; padding-bottom: 5px;
+  color: #FF4601;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 730px) {
+  .Footer-section {
+    margin: 0 auto;
+  }
+  .Footer-column {
+    width: 45%;
+    padding-top: 40px;    
+  }
+}

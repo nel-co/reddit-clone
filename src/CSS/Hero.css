@@ -1,0 +1,12 @@
+.Hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	text-align: center;
+	height: 150px;
+	text-align: center;
+}
+
+.orange {
+	color: #FF4601;
+}

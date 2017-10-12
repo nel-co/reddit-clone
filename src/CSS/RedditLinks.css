@@ -1,0 +1,74 @@
+.Link-box {
+  display: flex;
+  padding: 30px 15px 30px 15px;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn .4s ease forwards;
+}
+
+.Link-box:hover {
+  background: rgba(255, 70, 1, .03);
+}
+
+.Link-score {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 11px;
+}
+
+.Link-info {
+  margin-left: 20px;
+  flex-grow: 1;
+  line-height: 24px;
+}
+
+.Link-info-title a {
+  color: #313131;
+  text-decoration: none;
+}
+
+.Link-info-title a:visited {
+  color: #A5A5A5;
+  text-decoration: none;
+}
+
+.Link-info-user,
+.Link-info-user a {
+  font-size: 11px;
+  color: #C2C2C2;
+  text-decoration: none;
+}
+
+.Link-info-user a {
+  font-weight: 700;
+}
+
+.Link-subreddit {
+  margin-left: 60px;
+}
+
+.Link-subreddit a {
+  color: #01FFCB;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.Link-subreddit a:visited {
+  color: #01FFCB;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);    
+  }
+}

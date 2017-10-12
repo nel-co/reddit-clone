@@ -1,0 +1,38 @@
+.Loading-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.Loading-circle {
+  animation: loading 1.2s ease-in-out infinite;
+  background: #FF4601;
+  border-radius: 100%;
+  margin: 4px;
+  height: 12px; width: 12px;
+}
+
+.Loading-circle:nth-child(1) {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+
+.Loading-circle:nth-child(2) {
+  animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+}
+
+.Loading-circle:nth-child(3) {
+  animation-delay: .4s;
+  -webkit-animation-delay: .4s;
+}
+
+@keyframes loading {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
