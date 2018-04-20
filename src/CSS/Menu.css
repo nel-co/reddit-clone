@@ -34,7 +34,6 @@
   margin-top: 21px;
   padding: 20px;
   position: absolute;
-  width: 300px;
   animation: dropdown .3s cubic-bezier(.02,.58,.15,.95) forwards;
   z-index: 1;
   max-height: 300px;
@@ -84,10 +83,4 @@ input {
     transform: translateY(0px);
     opacity: 1;
   }
-}
-
-@media screen and (max-width: 730px) {
-  .Menu-dropdown {
-    width: 100%;
-  }    
 }
